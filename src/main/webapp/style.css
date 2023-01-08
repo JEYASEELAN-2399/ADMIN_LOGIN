@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+body{
+    background-image: url("bk.jpg");
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color:  rgb(20, 89, 238); 
+    height: 100vh;
+    width: 100vh; 
+    background-size: cover;
+      background-repeat: no-repeat;
+        background-attachment: fixed;
+      
+    justify-content: left;
+}
+h1{
+   
+    
+    font-size: 55px;
+    margin: 5px;
+    text-align:right;
+    color: rgb(240, 240, 240);
+    text-shadow: 8px 8px 10px rgb(7, 144, 235);
+    
+}
+
+.form{
+    margin:30px 300px;
+    width: center;
+    background-color: rgba(34, 51, 206, 0.3);
+    border-radius: 30px;
+    color: rgb(206, 240, 222);
+    padding: 5px;
+    font-size: 25px;
+    box-shadow:0 8px 32px 0 rgba(203, 204, 208, 0.37);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+    
+}
+
+.form h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.form .lb{
+    display: block;
+    margin: 2px 0px 0px 6px;
+}
+
+.input input{
+    width: center;
+    font-size: 1.0em;
+    border-radius: 15px;
+    margin: auto 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    background-color: rgb(212, 240, 250);
+}
+
+.button{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(224, 221, 233);
+    font-size: 1em;
+    margin: 9px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.radio input{
+    accent-color: rgb(12, 85, 187);
+    transform:scale(1.5);
+    margin: 6px 0px 0px 10px;
+}
+
+
+  a:link {
+    color: rgb(10, 243, 126);
+    background-color: transparent;
+    text-decoration: none;
+    margin:  0px 10px;
+  }
+  a:visited {
+    color: rgb(78, 204, 24);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(231, 231, 231);
+    background-color: transparent;
+  }
+  a:active {
+    color: rgb(228, 6, 6);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .input{
+    width: 400px;
+    height: 115px;
+  }
